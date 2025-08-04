@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khambra Developers and Construction - Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Khambra Developers</div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="index.html#contact-section">Contact</a>
+    </nav>
+    <button id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section>
+      <h1>Our Services</h1>
+      <ul>
+        <li>Construction Management Consultancy</li>
+        <li>Custom Home Building & Architectural Design</li>
+        <li>Procurement & Commission-based B2B Connections</li>
+        <li>High-end Engineering Peer Network from India</li>
+      </ul>
+
+      <h2>Send us your Query</h2>
+      <form id="service-query-form" method="POST" action="mailto:contact@khambraconstructions.com" enctype="text/plain">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="query">Your Query:</label><br />
+        <textarea id="query" name="query" rows="5" required></textarea><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Work with us | A part of Indian Steel Pty Ltd</p>
+    <p>ACN: 680320361 | ABN: 93680320361</p>
+    <div class="social">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
